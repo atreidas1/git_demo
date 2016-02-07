@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #000000;
+}
+.sc0 {
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc0">Имя пользователя
+Первое, что вам следует сделать после установки Git'а, — указать ваше имя и адрес электронной почты. Это важно, потому что каждый коммит в Git'е содержит эту информацию, и она включена в коммиты, передаваемые вами, и не может быть далее изменена:
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+Выбор редактора
+$ git config --global core.editor emacs
+Утилита сравнения
+Другая полезная настройка, которая может понадобиться — встроенная diff-утилита, которая будет использоваться для разрешения конфликтов слияния. Например, если вы хотите использовать vimdiff:
+git config --global merge.tool vimdiff
+
+Проверка настроек
+git config --list
+
+Как получить помощь?
+
+Если вам нужна помощь при использовании Git'а, есть три способа открыть страницу руководства по любой команде Git'а:
+
+$ git help &lt;команда&gt;
+$ git &lt;команда&gt; --help
+$ man git-&lt;команда&gt;
+</span></div></body>
+</html>
